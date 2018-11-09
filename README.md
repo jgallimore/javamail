@@ -194,6 +194,9 @@ this project.
 If you're interested in contributing to JavaMail, see the
 [Contributions](Contributions) page.
 
+For instructions to contribute to this site, please see the
+[Website](Website) page.
+
 You can find a list of products related to JavaMail on the
 [Third Party Products](ThirdPartyProducts) page.
 
