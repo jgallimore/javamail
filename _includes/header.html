@@ -16,7 +16,7 @@
     <div class="row" id="header-row">
       <div class="col-sm-5 col-md-4" id="header-left">
         <div class="wrapper-logo-default">
-          <a title="Jakarta EE: The New Home of Cloud Native Java" href="/">
+          <a title="Jakarta EE: The New Home of Cloud Native Java" href="{{ '/' | absolute_url }}">
             <img width="140" class="logo-eclipse-default img-responsive hidden-xs" src="/assets/images/jakarta/jakarta-ee-logo.svg" alt="Jakarta EE: The New Home of Cloud Native Java" />
           </a>
         </div>
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             </button>
             <div class="wrapper-logo-mobile">
-              <a class="navbar-brand visible-xs" title="Jakarta EE: The New Home of Cloud Native Java" href="/">
+              <a class="navbar-brand visible-xs" title="Jakarta EE: The New Home of Cloud Native Java" href="{{ '/' | absolute_url }}">
                 <img width="140" class="logo-eclipse-default-mobile img-responsive" src="/assets/images/jakarta/jakarta-ee-logo.svg" alt="Jakarta EE: The New Home of Cloud Native Java" />
               </a>
             </div>
@@ -51,8 +51,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
-          <h1>JavaMail API</h1>
-          <h2>Subtitle</h2>
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
       </div>
     </div>
